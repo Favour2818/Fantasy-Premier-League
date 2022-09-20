@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px 10px;
+}
+/* .nav-club:hover{
+    transform: scale(1.5);
+} */
+#navclub-sites{
+    font-size: 11px;
+    font-family: helvetica;
+    /* margin-top: 30px; */
+    margin: auto;
+    margin-right: 30px;
+    color: #777676;
+}
+.header-img {
+    width: 33px !important;
+}
+.lion-img{
+    width: 130px;
+}
+.header-img:hover {
+    transform: scale(1.5);
+}
+.navbar-nav{
+    background-color: #37003c;
+    margin: 10px 0px 0px 150px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 94rem;
+}
+.lion{
+    position: absolute;
+    z-index:20;
+    border:20px solid rgb(255, 255, 255);
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 120px;
+    /* width: 60px; */
+}
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.nav-link:hover, .nav-link:focus {
+    color: white;
+}
+.second-lion {
+    width: 140px;
+}
+.ban {
+    font-size: 150px;
+    color:#37003c;
+}
+#banner {
+    background-image: url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), linear-gradient(to right, rgb(2, 239, 255), rgb(98, 123, 255));
+    background-position: 50% -460px, right -73px bottom -24px, 0px center;
+    background-size: 618px 873px, 618px 873px, auto;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    width: 103.5rem;
+}
+#banner .btn {
+    font-size: 18px;
+}
+.banners {
+    z-index: 23;
+    position: relative;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    padding: 0px 10px;
+    margin: 0px 64.5px;
+}
+td{
+    padding: 12px 30px 12px 45px;
+}
+tr{
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #370043;
+    font-weight: bold;
+}
+.t1{
+    font-size: x-small;
+    color: #777676;
+    border-bottom: 1px solid #7776762c;
+}
+.t2{
+    border-bottom: 1px solid #7776762c;
+}
+.t3{
+    border-bottom: 1px solid #7776762c;
+}
+#match span{
+    border-width: 14px;
+    border-bottom: 1px dotted #777676;
+}
+#bonus span{
+    border-width: 14px;
+    border-bottom: 1px dotted #777676;
+}
+#confirmed span{
+    /* width: 15px; */
+    padding: 0.4rem 0.4rem;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 135);
+    text-transform: uppercase;
+}#added span{
+    padding: 0.4rem 0.4rem;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 135);
+    text-transform: uppercase;
+}
+#live span{
+    padding: 0.4rem 0.4rem;
+    margin-left: 30px;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 135);
+    text-transform: uppercase;
+}
+#updated span{
+    padding: 0.4rem 1rem;
+    /* margin-bottom: 20px; */
+    margin-left: 600px;
+    border-radius: 5px;
+    background-color: #370043;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: small;
+}
+#leag{
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    color: #370043;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.t5{
+    display: flex;
+    height: 6vh;
+    background-image: linear-gradient(to left, rgb(2, 239, 255),rgb(0, 255, 135));
+    padding: 9px 10px;
+    margin: 25px 0px;
+}
+.no-pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+.no-marg {
+    margin-right: 0;
+}
+.no-room {
+    color: #777676;
+    border-left: 1px solid #777676 ;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background-color: #ff2882;
+    color: #fff;
+}
+.dropdown-item:hover{
+    background-color: #ff2882;
+    text-decoration: underline;
+    color: #fff;
+}
+.dropdown-item{
+    color: #fff;
+}
+.box{
+    color: #37003c;
+    font-weight: bold;
+    background-color: #00ff87;
+    border: none;
+}
+.box:hover{
+    color: #37003c;
+    background-color: #00ff87;
+}
+#pic{
+    margin-left: 400px;
+    margin-top: -370px;
+}
+.gm {
+    /* position: relative; */
+    bottom: 0px;
+    width: 800px;
+    height: 300px;
+    box-shadow: 5px 10px #f5e8e8;
+    background-image: linear-gradient(to right, rgb(2, 239, 255),rgb(98, 123, 255));
+}
+.points{
+    position: absolute;
+    bottom: -300px;
+    /* left: -140px;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px; */
+    text-align: center;
+    /* width: 100%; */
+    /* padding-bottom: 25px; */
+}
+#game{
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: x-large;
+    color: #370043;
+    margin-top: 50px;
+}
+#latest{
+    margin: -10px 1px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #370043;
+}
+.myteam{
+    border: none;
+    background-color: #9ef3ffe3;
+    border-radius: 3px;
+    padding: 0.2rem 6rem;
+    /* opacity: 0.6; */
+}
+#mt{
+    font-weight: bolder;
+    color: #370043;
+}
+#prizes{
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #370043;
+}
+.gw5{
+    display: flex;
+    position: relative;
+    margin: 20px 5px;
+    padding: 0.4rem 1rem;
+    width: 800px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(2, 239, 255),rgb(0, 255, 135));
+}
+#ant{
+    margin-left: 40px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #370043;
+}
+#ant:hover{
+    text-decoration: underline;
+}
+#scouts{
+    margin-left: 40px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+    color: #370043;
+    margin-top: -10px;
+}
+#date{
+    margin-left: 40px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #370043;
+}
+.totw {
+    margin-left: 20px;
+    margin-top: 1px;
+    width: 500px;
+    height: 60px;
+    border-radius: 7px;
+    box-shadow: 5px 10px #fff;
+    background-image: url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), linear-gradient(to right, rgb(2, 239, 255), rgb(98, 123, 255));
+}
+#star {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.table {
+    margin: 35px;
+    margin-top: 15px;
+}
+.tb {
+    font-size: large;
+}
+.tm{
+    margin-left: 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(55, 0, 60);
+}
+.ttig {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 420px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #fff;
+    background-image: url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), url("https://fantasy.premierleague.com/static/media/pattern-2-d.0a64c7c7.png"), linear-gradient(to right, rgb(2, 239, 255), rgb(98, 123, 255));
+}
