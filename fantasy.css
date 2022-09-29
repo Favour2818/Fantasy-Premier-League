@@ -206,7 +206,7 @@ td#confirmed {
 }
 .points{
     position: absolute;
-    bottom: -360px;
+    bottom: -300px;
     /* left: -140px;
     font-family: Helvetica, sans-serif;
     font-size: 11px; */
@@ -302,8 +302,8 @@ td#confirmed {
 }
 .ttig {
     /* margin-left: 70px; */
-    margin-top: 20px;
-    width: 650px;
+    margin-top: 15px;
+    width: 550px;
     height: 60px;
     border-radius: 5px;
     box-shadow: 5px 10px #fff;
@@ -321,7 +321,7 @@ td#confirmed {
 }
 .ttog {
     margin-left: 200px;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 550px;
     height: 60px;
     border-radius: 6px;
@@ -346,7 +346,7 @@ td#confirmed {
     margin-top: 350px;
 }
 .potw {
-    margin-left: 100px;
+    margin-left: 190px;
     margin-top: 10px;
     width: 5000px;
     height: 60px;
@@ -376,7 +376,7 @@ td#confirmed {
 }
 .Mvt {
     margin-top: 200px;
-    margin-left: 100px;
+    margin-left: 190px;
     width: 550px;
     height: 60px;
     color: rgb(55, 0, 60);
@@ -420,7 +420,7 @@ td#confirmed {
 }
 .Pbl {
     margin-top: -380px;
-    margin-left: 100px;
+    margin-left: 190px;
     width: 550px;
     height: 60px;
     color: rgb(55, 0, 60);
@@ -431,8 +431,8 @@ td#confirmed {
 .table-Pbl{
     margin-left: 15px;
 }
-.foot {
-    margin-top: 350px;
+.Line {
+    
 }
 .Logos {
     margin-top: 350px;
@@ -480,4 +480,66 @@ td#confirmed {
 #Ol{
     text-align: center;
     margin-top: 440px;
+}
+/* Footer */
+.foot {
+    margin-top: 10px;
+    background-color: #37003c;
+}
+h5 {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-top: 35px;
+    font-weight: bolder;
+    padding: 3px;
+    margin-left: -30px;
+}
+#premier {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+#p-details {
+   font-size: 1.2rem;
+   margin-right: 20px;
+   margin-left: -25px;
+}
+#l-details {
+   font-size: 1.2rem;
+}
+#Fant {
+    font-size: 1.2rem;
+    margin-right: 20px;
+    margin-left: -35px;
+}
+#Sta {
+   font-size: 1.2rem;
+   margin-right: 20px;
+   margin-left: -35px;
+}
+#Vid {
+    margin-left: -35px;
+}
+#comm {
+    font-size: 1.2rem;
+    margin-left: -35px; 
+}
+.moore {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-top: 35px;
+    font-weight: bolder;
+    padding: 3px;
+}
+#MO {
+    font-size: 1.2rem;
+    margin-left: -10px;
+}
+#OR {
+    font-size: 1.2rem;
+}
+#Soc {
+    font-size: 1.2rem;
+    margin-left: -35px;
 }
